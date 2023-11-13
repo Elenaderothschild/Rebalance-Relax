@@ -1,3 +1,6 @@
+/* Import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;1,9..40,400&family=DM+Serif+Display:ital@0;1&family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
@@ -7,24 +10,26 @@
 
 /* General styles */
 body {
-min-height: 100vw;
-display: flex;
-flex-direction: column;
-/* Generic project styles */
-color: rgb(29, 28, 28);
+    min-height: 100vw;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: rgb(29, 28, 28);
 }
 
 /* Header */
 header {
-background-color: lightgrey;
+    background-color: lightgrey;
 }
+
 /* Main content */
 main {
-background: lightslategray;
-/* Make main element to take up surplus space to push the footer down */
-flex: 1 0 auto;
+    background: lightslategray;
+    /* Make main element to take up surplus space to push the footer down */
+    flex: 1 0 auto;
 }
+
 /* Footer */
 footer {
-background-color: lightgrey;
+    background-color: lightgrey;
 }
