@@ -23,6 +23,10 @@ header {
     background-color: lightgrey;
 }
 
+h1 {
+    font-family: 'DM Serif Display', Serif;
+}
+
 /* Main content */
 main {
     background: lightslategray;
