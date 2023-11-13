@@ -5,6 +5,15 @@
     box-sizing: border-box;
 }
 
+/* General styles */
+body {
+min-height: 100vw;
+display: flex;
+flex-direction: column;
+/* Generic project styles */
+color: rgb(29, 28, 28);
+}
+
 /* Header */
 header {
 background-color: lightgrey;
@@ -12,6 +21,8 @@ background-color: lightgrey;
 /* Main content */
 main {
 background: lightslategray;
+/* Make main element to take up surplus space to push the footer down */
+flex: 1 0 auto;
 }
 /* Footer */
 footer {
