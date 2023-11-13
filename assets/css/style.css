@@ -10,7 +10,7 @@
 
 /* General styles */
 body {
-    min-height: 100vw;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     /* Generic project styles */
@@ -21,7 +21,7 @@ body {
 /* Header */
 header {
     background-color: #ffffff;
-    padding: 0 2rem;
+    padding: 0 1rem;
     z-index: 99;
     position: fixed;
     width: 100%;
@@ -31,6 +31,7 @@ header {
 header a {
     text-decoration: none;
     color: rgb(29, 28, 28);
+    padding: 0 1rem;
 }
 h1 {
     font-family: 'DM Serif Display', Serif;
@@ -38,6 +39,20 @@ h1 {
     letter-spacing: 1px;
 }
 
+#menu {
+    font-size: 120%;
+    letter-spacing: 1x;
+    list-style-type: none;
+}
+
+#menu>li {
+    margin-bottom: 1em;
+
+}
+
+.active {
+    border-bottom: 1px solid rgb(29, 28, 28);
+}
 /* Main content */
 main {
     background: lightslategray;
