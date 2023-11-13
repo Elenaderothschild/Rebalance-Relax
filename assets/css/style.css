@@ -28,8 +28,14 @@ header {
     box-shadow: 0 4px 4px rgb(0, 0, 0, 0.4)
 }
 
+header a {
+    text-decoration: none;
+    color: rgb(29, 28, 28);
+}
 h1 {
     font-family: 'DM Serif Display', Serif;
+    text-transform: capitalize;
+    letter-spacing: 1px;
 }
 
 /* Main content */
