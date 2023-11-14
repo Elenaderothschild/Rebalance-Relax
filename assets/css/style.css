@@ -134,6 +134,23 @@ main {
     }
 }
 
+/* Media query: laptops and larger (992px and up */
+@media screen and (min-width: 992px) {
+   #menu a:hover {
+      border-bottom: 1px solid rgb(29, 28, 28);
+    }
+    nav a {
+         border-radius: 50%;
+         width: 8rem;
+         padding: 5px 10px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+         margin: 4px 2px;
+         border: 2px rgb(29, 28, 28);
+         border-radius: 20px;
+    }
+}
 /* Footer */
 footer {
     background-color: lightgrey;
