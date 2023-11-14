@@ -25,7 +25,7 @@ header {
     z-index: 99;
     position: fixed;
     width: 100%;
-    box-shadow: 0 4px 4px rgb(0, 0, 0, 0.4)
+    box-shadow: 0 2px 2px rgb(0, 0, 0, 0.4)
 }
 
 header a {
@@ -49,13 +49,38 @@ h1 {
     margin-bottom: 1em;
 
 }
+/* Style for navigation bar buttons */
+nav a {
+        border-radius: 50%;
+        width: 8rem;
+        padding: 5px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 4px 2px;
+        border: 2px rgb(29, 28, 28);
+        border-radius: 20px;
+}
+
+/* Change color on hover */
 
 .active {
     border-bottom: 1px solid rgb(29, 28, 28);
 }
+
+/* Nav bar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px rgb(0, 0, 0, 0.4);
+    display: none;
+}
 /* Main content */
 main {
-    background: lightslategray;
+    background: #f5f9f6;
     /* Make main element to take up surplus space to push the footer down */
     flex: 1 0 auto;
 }
