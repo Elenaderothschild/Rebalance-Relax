@@ -18,6 +18,9 @@ body {
     font-family: 'DM Sans', sans-serif;
 }
 
+#home {
+    display: flex;
+}
 /* Header */
 header {
     background-color: #ffffff;
@@ -156,9 +159,22 @@ main {
 footer {
         background-color: #ffffff;
         box-shadow:  4px 0px 4px rgb(0, 0, 0, 0.4);
-        display: flex;
-        justify-content: space-between;
-        color: rgb(29, 28, 28);
         text-decoration: none;
+}
+
+.social-networks {
+    color: rgb(29, 28, 28);
+    display: block;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    text-align: center;
     
+  }
+footer p {
+    text-decoration: underline;
+    text-align: center;
+}
+footer h3 {
+    margin-top: 1rem;
+    text-align: center;
 }
