@@ -99,7 +99,7 @@ display: block;
 }
 /* Main content */
 main {
-    background: #f5f9f6;
+    background: #ECECEC;
     /* Make main element to take up surplus space to push the footer down */
     flex: 1 0 auto;
     margin-top: 95px;
@@ -124,14 +124,14 @@ main {
         display: none;
     }
     #logo {
-        font-size: 350%;
+        font-size: 300%;
         line-height: 75px;
         margin: 0 0.5rem;
     }
     /* Main Content */
     main {
         /* Push main content down to accomodate larger header */
-        margin-top: 158px;
+        margin-top: 92px;
     }
 }
 
@@ -152,7 +152,7 @@ main {
          border-radius: 20px;
     }
     header {
-        margin-top: 92.2px;
+        margin-top: 92x;
     }
 }
 /* Footer */
