@@ -21,6 +21,7 @@ body {
 #home {
     display: flex;
 }
+
 /* Header */
 header {
     background-color: #ffffff;
@@ -39,6 +40,7 @@ header a {
     color: rgb(29, 28, 28);
     padding: 0 1rem;
 }
+
 h1 {
     font-family: 'DM Serif Display', Serif;
     text-transform: capitalize;
@@ -56,17 +58,18 @@ h1 {
     margin-bottom: 1em;
 
 }
+
 /* Style for navigation bar buttons */
 nav a {
-        border-radius: 50%;
-        width: 8rem;
-        padding: 5px 10px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        margin: 4px 2px;
-        border: 2px rgb(29, 28, 28);
-        border-radius: 20px;
+    border-radius: 50%;
+    width: 8rem;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    border: 2px rgb(29, 28, 28);
+    border-radius: 20px;
 }
 
 .active {
@@ -87,25 +90,28 @@ nav {
 
 /* Nav toggle */
 #nav-toggle:checked~nav {
-display: block;
+    display: block;
 }
 
 #nav-toggle {
-    display:none;
+    display: none;
 }
 
 .nav-toggle-label {
     font-size: 2rem;
 }
+
 /* Main content */
 main {
-    background: #ECECEC;
+    background-color: #ECECEC;
     /* Make main element to take up surplus space to push the footer down */
     flex: 1 0 auto;
     margin-top: 95px;
 }
+
 /* Media query: tablets and larger (768px and up */
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
+
     /* Header */
     nav {
         display: block;
@@ -114,20 +120,25 @@ main {
         width: fit-content;
         padding-right: 1rem;
     }
+
     #menu {
         display: flex;
     }
+
     #menu>li {
         padding-left: 1 rem;
     }
+
     .nav-toggle-label {
         display: none;
     }
+
     #logo {
         font-size: 300%;
         line-height: 75px;
         margin: 0 0.5rem;
     }
+
     /* Main Content */
     main {
         /* Push main content down to accomodate larger header */
@@ -137,29 +148,32 @@ main {
 
 /* Media query: laptops and larger (992px and up */
 @media screen and (min-width: 992px) {
-   #menu a:hover {
-      border-bottom: 1px solid rgb(29, 28, 28);
+    #menu a:hover {
+        border-bottom: 1px solid rgb(29, 28, 28);
     }
+
     nav a {
-         border-radius: 50%;
-         width: 8rem;
-         padding: 5px 10px;
-         text-align: center;
-         text-decoration: none;
-         display: inline-block;
-         margin: 4px 2px;
-         border: 2px rgb(29, 28, 28);
-         border-radius: 20px;
+        border-radius: 50%;
+        width: 8rem;
+        padding: 5px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 4px 2px;
+        border: 2px rgb(29, 28, 28);
+        border-radius: 20px;
     }
+
     header {
         margin-top: 92x;
     }
 }
+
 /* Footer */
 footer {
-        background-color: #ffffff;
-        box-shadow:  4px 0px 4px rgb(0, 0, 0, 0.4);
-        text-decoration: none;
+    background-color: #ffffff;
+    box-shadow: 4px 0px 4px rgb(0, 0, 0, 0.4);
+    text-decoration: none;
 }
 
 .social-networks {
@@ -168,12 +182,14 @@ footer {
     margin-bottom: 1rem;
     margin-top: 1rem;
     text-align: center;
-    
-  }
+
+}
+
 footer p {
     text-decoration: underline;
     text-align: center;
 }
+
 footer h3 {
     margin-top: 1rem;
     text-align: center;
