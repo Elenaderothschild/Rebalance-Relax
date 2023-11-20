@@ -23,6 +23,7 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 2px;
     padding-bottom: 0.5rem;
+    font-size: 130%;
 }
 
 h2 {
@@ -42,8 +43,8 @@ h2 {
    height: 100%;
 }
 #cover-text h2 {
-    background-color: rgba(255, 255, 255, 0.1);
-    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: rgb(29, 28, 28);
 }
 
 #home {
@@ -52,7 +53,7 @@ h2 {
 
 /* Header */
 header {
-    background-color: #ffffff;
+    background-color: #f9f6f2;
     padding: 0 1rem;
     z-index: 99;
     position: fixed;
@@ -87,7 +88,7 @@ header a {
 /* Nav bar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color: #ffffff;
+    background-color: #f9f6f2;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -113,7 +114,7 @@ nav {
 main {
     /* Make main element to take up surplus space to push the footer down */
     flex: 1 0 auto;
-    margin-top: 95px;
+    margin-top: 41.5px;
 }
 
 /* Hero section */
@@ -133,6 +134,7 @@ main {
         box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
+        
     }
 
     #menu {
@@ -141,6 +143,8 @@ main {
 
     #menu>li {
         padding-left: 1 rem;
+        padding-right: 1rem;
+        font-size: 100%;
     }
 
     .nav-toggle-label {
@@ -153,12 +157,26 @@ main {
         margin: 0 0.5rem;
     }
 
+    #hero {
+        height: 100vh;
+    }
+
+    #cover-text {
+            font-size: 200%;
+            text-align: center;
+            margin: 20px 20px;
+            display: flex;
+            align-items: center;
+            height: 100%;
+         }
+    }
+
     /* Main Content */
     main {
         /* Push main content down to accomodate larger header */
-        margin-top: 92px;
+        margin-top: 41.5px;
     }
-}
+
 
 /* Media query: laptops and larger (992px and up */
 @media screen and (min-width: 992px) {
@@ -167,13 +185,13 @@ main {
     }
 
     header {
-        margin-top: 92x;
+        margin-top: 50px;
     }
 }
 
 /* Footer */
 footer {
-    background-color: #ffffff;
+    background-color: #f9f6f2;
     box-shadow: 4px 0px 4px rgb(0, 0, 0, 0.4);
     text-decoration: none;
 }
