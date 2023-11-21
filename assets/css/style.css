@@ -189,8 +189,18 @@ main {
         width: 90%;
         margin: 20px auto;
         display: inline-flex;
+        background-color: #f9f6f2;
+        padding: 0 1rem;
     }
 
+    #bio {
+        padding: 0 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+  
+    
 #bio {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -211,22 +221,28 @@ main {
     #menu a:hover {
         border-bottom: 1px solid rgb(29, 28, 28);
     }
-   
 }
 
 /* Footer */
 footer {
     background-color: #f9f6f2;
     text-decoration: none;
+    text-align: center;
 }
 
-.social-networks {
+#social-networks {
     color: rgb(29, 28, 28);
     display: block;
     margin-bottom: 1rem;
     margin-top: 1rem;
     text-align: center;
 
+}
+
+#social-networks i {
+    color: rgb(29, 28, 28);
+    font-size: medium;
+    padding: 5%;
 }
 
 footer p {
