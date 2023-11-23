@@ -145,21 +145,9 @@ main {
         display: flex;
         flex-direction: column;
         text-align: justify;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
-
-  
-    
-#bio {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-
-#buddha {
-    background: url("../images/buddha.jpg") no-repeat top center/cover;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
 
 
 /* Footer */
@@ -231,7 +219,23 @@ footer h3 {
     main {
         /* Push main content down to accomodate larger header */
         margin-top: 41.5px;
+        flex: 1 0 auto;
+        display: flex;
+        flex-direction: column;
     }
+
+    /* Contact page */
+
+  .contact {
+        background-color: e7d9cd;
+    }
+    #get-in-touch {
+    background-image: url("../images/greenleaf.webp");
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
 
     /* Hero */
     #hero {
