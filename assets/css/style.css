@@ -52,7 +52,7 @@ h2 {
 
 /* Header */
 header {
-    background-color: #f9f6f2;
+    background-color:#f9f6f2;
     padding: 0 1rem;
     z-index: 99;
     position: fixed;
@@ -151,17 +151,20 @@ main {
 
      /* Contact page */
 
-  .contact {
-    background-color: e7d9cd;
-}
+
 #get-in-touch {
 background-image: url("../images/greenleaf.webp");
 background-size: cover;
-background-position: 75%;
+background-position: 100%;
 padding: 20px 10% 0 10%;
 flex-grow: 1;
+background-color: #f9f6f2;
+height: 100vh;
 }
 
+#get-in-touch h2 {
+    font-size: 120%;
+}
 
 
 /* Footer */
