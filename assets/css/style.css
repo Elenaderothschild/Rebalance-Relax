@@ -114,6 +114,8 @@ main {
     /* Make main element to take up surplus space to push the footer down */
     flex: 1 0 auto;
     margin-top: 41.5px;
+    flex-direction: column;
+    display: flex;
 }
 
 /* Hero section */
@@ -155,7 +157,7 @@ main {
 #get-in-touch {
 background-image: url("../images/greenleaf.webp");
 background-size: cover;
-background-position: 100%;
+background-position: 75%;
 padding: 20px 10% 0 10%;
 flex-grow: 1;
 background-color: #f9f6f2;
@@ -163,9 +165,16 @@ height: 100vh;
 }
 
 #get-in-touch h2 {
-    font-size: 120%;
+    font-size: 110%;
+    margin-bottom: 20px;
+ 
 }
 
+.contact {
+    padding: 30px;
+    background-color: rgba(255,255,255,0.2);
+    margin-top: 50%;
+}
 
 /* Footer */
 footer {
@@ -243,9 +252,6 @@ footer h3 {
 
     /* Contact page */
 
-  .contact {
-        background-color: e7d9cd;
-    }
     #get-in-touch {
     background-image: url("../images/greenleaf.webp");
     background-size: cover;
