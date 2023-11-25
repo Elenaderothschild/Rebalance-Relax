@@ -159,7 +159,11 @@ main {
         width: 90%;
         margin: 20px auto;
         padding: 0 10px;
-        background: image("../")
+        background-image: url("../whitecandle.jpg");
+    }
+
+    #services body {
+        background: url("../whitecandle.jpg");
     }
 
     #services h2 {
@@ -172,13 +176,9 @@ main {
     hr {
         border-top: 1px solid rgb(29, 28, 28);
         margin: 5px 0;
-        
-      
     }
 
      /* Contact page */
-
-
 #get-in-touch {
 background-image: url("../images/greenleaf.webp");
 background-size: cover;
