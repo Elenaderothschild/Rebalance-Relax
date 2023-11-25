@@ -162,10 +162,6 @@ main {
         background-image: url("../whitecandle.jpg");
     }
 
-    #services body {
-        background: url("../whitecandle.jpg");
-    }
-
     #services h2 {
         margin-bottom: 20px;
         text-align: center;
@@ -219,6 +215,7 @@ textarea {
     margin-top: 20px;
     font-size: 100%;
     padding: 5px 5px;
+    border: 1px solid;
 
 }
 
