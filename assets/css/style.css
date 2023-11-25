@@ -72,12 +72,13 @@ header a {
 
 #menu {
     font-size: 120%;
-    letter-spacing: 1x;
+    letter-spacing: 1px;
     list-style-type: none;
 }
 
 #menu>li {
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
+    margin-top: 7px;
 
 }
 
