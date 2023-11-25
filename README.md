@@ -48,11 +48,7 @@ The user goals of this website are:
 ### *Treatments*
 
 
-### *My Last Trip*
-
-
-### *Keep in touch*
-
+### *Contact*
 
 ---
 ## Technologies Used 
@@ -89,9 +85,7 @@ I have used several technologies that have enabled this design to work:
 
 - [AmIResponsive](http://ami.responsivedesign.is/)
     - 
--[Tiny.png]
-   -
--[Pexels.com]
+-[ Pexels.com]
 
 ---
 ## Testing
@@ -147,25 +141,10 @@ The following websites/articles were used for research and guidance:
 
 I used code from the following resources:
 
-- [Responsive Navbar](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp)
-
-- [Animated scroll down arrow](https://codepen.io/JoshMac/pen/MaYEmJ)
-
-- [Read more button](https://www.w3schools.com/howto/howto_js_read_more.asp)
-    - This code was used but the JS function was heavily edited with the help of my tutor Guido.
-
-- [Sign up form](https://codepen.io/dope/pen/ZQWBeL)
-    - I used this code as the basis of my form but changed the styling and removed the background animation. 
-
-- [Image grid](https://www.freecodecamp.org/news/how-to-create-an-image-gallery-with-css-grid-e0f0fd666a5c/)
-
-- [Fancybox gallery](https://fancyapps.com/fancybox/3/docs/#images)
-
-- [Visually hidden elements](https://www.w3.org/WAI/tutorials/forms/labels/)
 
 The below websites were used for the content: 
 
-- I wrote most of the content but I used [
+- I wrote most of the content but I used 
 - A number of the images come from found on [Pexels](https://pexels.com).
 
 ---
