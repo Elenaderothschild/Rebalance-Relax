@@ -16,6 +16,7 @@ body {
     /* Generic project styles */
     color: rgb(29, 28, 28);
     font-family: 'DM Sans', sans-serif;
+    background-color: #f9f6f2;
 }
 
 h1 {
@@ -136,6 +137,7 @@ main {
     #about-me h2 {
         font-size: 120%;
         text-align: left;
+        text-decoration: underline;
     }
     #about-me h3 {
         font-size: 100%;
@@ -149,6 +151,29 @@ main {
         text-align: justify;
         margin-top: 10px;
         margin-bottom: 10px;
+    }
+
+    /* Treatments page */
+
+    #services {
+        width: 90%;
+        margin: 20px auto;
+        padding: 0 10px;
+        background: image("../")
+    }
+
+    #services h2 {
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 120%;
+        text-decoration: underline;
+    }
+
+    hr {
+        border-top: 1px solid rgb(29, 28, 28);
+        margin: 5px 0;
+        
+      
     }
 
      /* Contact page */
@@ -181,7 +206,6 @@ height: 100vh;
     height: 25px;
     margin: 5px 0 5px 0;
     border: 1px solid;
-    font-weight: bold;
 }
 
 textarea {
@@ -189,13 +213,11 @@ textarea {
     height: 80px;
     margin: 5px 0 5px 0;
     border: 1px solid;
-    font-weight: bold;
 }
 
 .send {
     margin-top: 20px;
     font-size: 100%;
-    font-weight: bold;
     padding: 5px 5px;
 
 }
@@ -205,6 +227,7 @@ footer {
     background-color: #f9f6f2;
     text-decoration: none;
     text-align: center;
+    height: 150px;
 }
 
 #social-networks {
