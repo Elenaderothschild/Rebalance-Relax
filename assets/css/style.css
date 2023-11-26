@@ -157,7 +157,6 @@ main {
     /* Treatments page */
 
     #services {
-        width: 90%;
         margin: 20px auto;
         padding: 0 10px;
     }
@@ -304,6 +303,7 @@ footer h3 {
 #services h2 {
     font-size: 200%;
     margin-bottom: 40px;
+    text-align: center;
 }
 
 #treatments p, summary {
@@ -312,7 +312,7 @@ footer h3 {
 img {
     width: 100%;
     margin: 20px auto;
-    padding: o 10 px;
+    padding: 0 10 px;
 }
 
     /* Contact page */
