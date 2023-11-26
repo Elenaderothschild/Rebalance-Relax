@@ -1,30 +1,66 @@
 # Rebalance Relax
 
-[Visit the website here](https://daisygunn.github.io/rebalance-relax)
+[Visit the website here](https://elenaderothschild.github.io/Rebalance-Relax/)
+Created as an online platform for individuals to learn about, explore and engage with the massage therapy services offered by an individual practitioner. The website serves a virtual gateway, providing information, building trust, and facilitating the booking process to enhance the overall experience for clients seeking massage services.
 
 ![](docs/images/amiresponsive_image.png)
 
-
 This website is made up of the following sections:
 
+1. Home/Introduction
+2. Treatment options and prices
+3. Get in touch contact form
 
 The business goals for this website are:
 
+1. To introduce an individual entrepreneur to wide public 
+2. To inspire users to try offered services
+3. Earn income from services rendered
+4. Acquire and increase the number of clients by offering an easy and efficient way of communication
+   Improve online visibility through SEO strategies to attract potential clients searching for massage services
+5. Enhance brand recognition by maintaining a cohesive visual identity across the website and marketing materials
+6. About me section: share the story, values and mission of the massage therapy business to connect with clients on a personal level
+7. Implement loyalty programs to incentivise repeat business and foster a sense of loyalty among clients 
+8. Therapist credentials: highlight qualifications, certifications, and expertise of massage therapist to instil confidence in potential clients
+9. Social media integration: integrate social media links to leverage additional channels for marketing and community engagement
 
 The user goals of this website are:
+
+1. To have seamless experience by accessing the website on different size screens
+2. To have enhanced satisfaction by being able to intuitively navigate through the website to find all information needed
+3. To be able effectively communicate and book appointments via the contact form and direct contact details
+4. To learn about different types of massage therapy and their benefits to wellbeing
 
 
 ## UX
 ---
 ### **Strategy**
 
+Target users are:
+
+1. Aged 25-65
+2. Individuals looking for maintenance of overall wellbeing and incorporating massage therapy as part of a healthy lifestyle.
+3. People looking for massage as means of relaxation and stress relief
+4. Individuals looking for massage therapy to deal with particular physical ailments, pain and muscular discomfort
+5. People with regular or high intensity physical activity looking for a massage as a tool for muscle recovery and injury prevention
+6. Expectant mothers looking for prenatal massage
 
 ### **Scope**
 
+1. Easy to find information, easy website navigation
+2. Inspirational photographs 
+3. Guidance on different types of massage therapy and cost
+4. Convenient way of communicating and getting in touch 
+
+The website offers all these things and is easy to use and navigate through.
+Given the age group of users the website is likely to be viewed on different screen sizes hence importance of the website responsiveness.
 
 
 ### **Structure** 
  
+This is a three-page website to allow desired information to fit. It has navigation bar at the top which allows users to access different parts of the website.
+I tried to mix pieces of information with images to aid better visual experience.
+The drop-down treatment menu is used to prevent information overload at first glance and also save space on mobile screens. It allows immediate basic information uptake with an option of going into more detail if required.
 
 ### **Skeleton**
 
