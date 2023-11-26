@@ -160,7 +160,6 @@ main {
         width: 90%;
         margin: 20px auto;
         padding: 0 10px;
-        background-image: url("../whitecandle.jpg");
     }
 
     #services h2 {
@@ -174,7 +173,7 @@ main {
         border-top: 1px solid rgb(29, 28, 28);
         margin: 5px 0;
     }
-
+   
      /* Contact page */
 #get-in-touch {
 background-image: url("../images/greenleaf.webp");
@@ -262,7 +261,7 @@ footer h3 {
         position: relative;
         box-shadow: none;
         width: fit-content;
-        padding-right: 1rem; 
+        padding-right: 2px; 
     }
 
     #menu {
@@ -270,9 +269,9 @@ footer h3 {
     }
 
     #menu>li {
-        padding-left: 1 rem;
-        padding-right: 1rem;
-        font-size: 100%;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        font-size: 130%;
     }
 
     .nav-toggle-label {
@@ -280,11 +279,10 @@ footer h3 {
     }
 
     #logo {
-        font-size: 200%;
+        font-size: 210%;
         line-height: 75px;
         margin: 0 0.5rem;
     }
-
 
     /* Main Content */
     main {
@@ -294,6 +292,28 @@ footer h3 {
         display: flex;
         flex-direction: column;
     }
+
+    /* Treatments page */
+
+#services {
+    margin-top: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#services h2 {
+    font-size: 200%;
+    margin-bottom: 40px;
+}
+
+#treatments p, summary {
+   font-size: 200%;
+}
+img {
+    width: 100%;
+    margin: 20px auto;
+    padding: o 10 px;
+}
 
     /* Contact page */
 
@@ -312,20 +332,37 @@ footer h3 {
     }
  
  #cover-text {
-    font-size: 100%;
+    font-size: 130%;
     text-align: center;
     width: 100%;
-    padding: 100px 80px;
+    padding: 80px 0;
+    margin-top: 50px;
 
  }
  #cover-text>h2 {
      background-color: rgba(255, 255, 255, 0.7);
      color: rgb(29, 28, 28);
  }
- /* about-me section */
+ /* About me section */
 
  #bio h2 {
-    text-align: center;
+    font-size: 100%;
+ }
+ #bio h3 {
+    font-size: 80%;
+    text-transform: uppercase;
+ }
+ #bio {
+    font-size: 200%;
+    padding: 40px;
+    padding-right: 40px;
+    margin-top: auto;
+ }
+ footer {
+    font-size: 200%;
+ }
+ #social-networks i {
+    font-size: 200%;
  }
 }
 /* Media query: laptops and larger (992px and up */
