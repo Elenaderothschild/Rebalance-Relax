@@ -1,6 +1,7 @@
 # Rebalance Relax
 
 [Visit the website here](https://elenaderothschild.github.io/Rebalance-Relax/)
+
 Created as an online platform for individuals to learn about, explore and engage with the massage therapy services offered by an individual practitioner. The website serves a virtual gateway, providing information, building trust, and facilitating the booking process to enhance the overall experience for clients seeking massage services.
 
 ![](docs/images/amiresponsive_image.png)
@@ -64,7 +65,9 @@ The drop-down treatment menu is used to prevent information overload at first gl
 
 ### **Skeleton**
 
-[Wireframes]()
+[Wireframes]
+
+The website differs slightly from created wireframes. Once created the treatments page looked bare with not enough content so I decided add more images.
 
 ### **Surface**
 
@@ -81,32 +84,36 @@ I felt DM Serif Display provides for a touch of luxury and DM Sans complements D
 
 ### *Navbar*
 
+The navbar is positioned on the top of the page, the menu collapses into a hamburger icon for space saving on mobile screens. 
 
 ### *Home*
 
+This is an introduction of the service provider where he shares his path to being a massage therapist. I used H2 and H3 elements followed by three paragraphs.
 
 ### *Treatments*
 
+This page has a treatment menu. I used Details element. It allows to see information at a glance and then read more about the treatments when clicking the arrow.
 
 ### *Contact*
 
+This is a contact form which allows a user to send an enquiry. The form uses 2 text inputs,an email input,textarea element and a send button.
 ---
 ## Technologies Used 
 
 I have used several technologies that have enabled this design to work:
 
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
-    - 
+    - Building block to structure the content
 - [CSS](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
-    -
+    -Style the web content
 - [Google Fonts](https://fonts.google.com/)
-    - 
+    - To import fonts used in the proejct
 - [Font Awesome](https://fontawesome.com/)
-    - 
+    - To import the social media icons for the footer
 - [Google Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
-    - 
+    - To inspect,fix issues and bugs and test responsiveness
 - [GitHub](https://github.com/)
-    - 
+    - To store code for the proejct
 - [Git](https://git-scm.com/)
     - 
 - [Codeanywhere](https://app.codeanywhere.com/)
