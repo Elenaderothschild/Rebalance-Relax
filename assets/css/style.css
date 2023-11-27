@@ -45,6 +45,7 @@ h2 {
 #cover-text>h2 {
     background-color: rgba(255, 255, 255, 0.7);
     color: rgb(29, 28, 28);
+    font-family: 'DM Serif Display', Serif;
 }
 
 #home {
@@ -139,10 +140,12 @@ main {
         font-size: 120%;
         text-align: left;
         text-decoration: underline;
+        font-family: 'DM Serif Display', Serif;
     }
     #about-me h3 {
         font-size: 100%;
         text-transform: uppercase;
+        font-family: 'DM Serif Display', Serif;
     }
 
     #bio {
@@ -166,6 +169,7 @@ main {
         text-align: center;
         font-size: 120%;
         text-decoration: underline;
+        font-family: 'DM Serif Display', Serif;
     }
 
     /* Media query for mobile screens */
@@ -195,6 +199,7 @@ height: 100vh;
 #get-in-touch h2 {
     font-size: 110%;
     margin-bottom: 20px;
+    font-family: 'DM Serif Display', Serif;
  
 }
 
@@ -257,6 +262,7 @@ footer p {
 footer h3 {
     margin-top: 1rem;
     text-align: center;
+    font-family: 'DM Serif Display', Serif;
 }
 
 /* Media query: tablets and larger (768px and up */
@@ -331,6 +337,7 @@ footer h3 {
     font-size: 200%;
     margin-bottom: 40px;
     text-align: center;
+    font-family: 'DM Serif Display', Serif;
 }
 
 #treatments p, summary {

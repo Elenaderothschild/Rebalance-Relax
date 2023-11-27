@@ -68,12 +68,16 @@ The drop-down treatment menu is used to prevent information overload at first gl
 
 ### **Surface**
 
+I chose colour palette based around beige/brown tones as I find those colours being calm, warm and comforting that suit business idea of relaxation and stress relief. I chose black color text to allow appropriate contrast. I used Google fonts DM Sans and DM Serif Display.
+I felt DM Serif Display provides for a touch of luxury and DM Sans complements DM Serif Display and allows for easy read. 
+
+
 ![](docs/images/font_selection.png)
 
 ---
 
 ## **Features**
-
+ This Is a fully responsive website that was designed mobile-first as many people would use mobiles to view it. First page is divided into two sections and the other two pages just have one section. The background colour with opacity has been used to provide contrast to cover-text and images. I used DM Serif Display for all of the headings and DM Sans Serif for the body text. This allows for cohesive design throughout the website.
 
 ### *Navbar*
 
