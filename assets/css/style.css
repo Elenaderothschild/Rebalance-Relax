@@ -322,7 +322,7 @@ footer h3 {
     /* Treatments page */
 
 #services {
-    margin-top: 80px;
+    margin-top: 60px;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -342,7 +342,7 @@ footer h3 {
 img {
     width: 100%;
     margin: 20px auto;
-    padding: 0 10 px;
+    padding: 5px 10px;
 }
 
     /* Contact page */
@@ -412,11 +412,17 @@ textarea {
     font-size: 250%;
 }
 header a {
-    font-size: 120%;
+    font-size: 130%;
 }
 
 /* Treatments page */
 
+details {
+    font-size: 160%;
+}
+#services h2 {
+    font-size: 300%;
+}
 
 /* Contact page */
 .contact {
