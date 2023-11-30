@@ -172,12 +172,39 @@ main {
         font-family: 'DM Serif Display', Serif;
     }
 
+    table {
+        width: 70%;
+    }
+    tr {
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr;
+    }
+    tr,td {
+        text-align: center;
+    }
+
     /* Media query for mobile screens */
     @media screen and (min-width: 280px){
         #services img {
             max-width: 100%;
             height: auto;
         }
+
+        table {
+            width: 70%;
+        }
+        tr {
+            display: grid;
+            grid-template-columns: 2fr 2fr 2fr;
+        }
+        tr,td {
+            text-align: center;
+        }
+        td {
+            border: 1px solid black;
+            padding: 5px;
+        }
+    
     }
 
     hr {
@@ -257,6 +284,7 @@ footer {
 footer p {
     text-decoration: underline;
     text-align: center;
+    color:rgb(29, 28, 28);
 }
 
 footer h3 {
