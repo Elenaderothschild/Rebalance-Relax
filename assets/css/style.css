@@ -118,7 +118,7 @@ main {
     flex: 1 0 auto;
     margin-top: 41.5px;
     flex-direction: column;
-    display: flex;
+    /*display: flex;*/
 }
 
 /* Hero section */
@@ -170,6 +170,9 @@ main {
         font-size: 120%;
         text-decoration: underline;
         font-family: 'DM Serif Display', Serif;
+    }
+    #treatments-large {
+    display: none;
     }
 
     table {
@@ -332,6 +335,7 @@ footer h3 {
         flex: 1 0 auto;
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
 
     /* Hero */
@@ -362,7 +366,7 @@ footer h3 {
 }
 
 #services h2 {
-    font-size: 200%;
+    font-size: 150%;
     margin-bottom: 40px;
     text-align: center;
     font-family: 'DM Serif Display', Serif;
@@ -379,6 +383,37 @@ img {
     margin: 20px auto;
     padding: 5px 10px;
 }
+#treatments {
+    display: none;
+}
+#treatments-large {
+    display: block;
+    }
+    .treatment-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .treatment-item {
+        background: rgba(255,255,255,0.4);
+        padding: 20px;
+        margin-bottom: 20px;
+        object-fit: scale-down;
+        width: 100%;
+        color: rgb(29, 28, 28);
+    }
+    .treatment-item h2{
+        margin-bottom: 10px !important;
+         color: rgb(29, 28, 28)
+    }
+    .treatment-item p {
+        font-size: uppercase;
+        font-size: 150%;
+    }
+  .treatment-container {
+    background: url("../images/whiteflowers.jpg") no-repeat center/cover;
+    }
+   
+
 
     /* Contact page */
 
@@ -444,7 +479,7 @@ textarea {
 
 /* Header */
 #logo {
-    font-size: 250%;
+    font-size: 210%;
 }
 header a {
     font-size: 130%;
@@ -456,7 +491,7 @@ details {
     font-size: 160%;
 }
 #services h2 {
-    font-size: 300%;
+    font-size: 180%;
 }
 
 /* Contact page */
