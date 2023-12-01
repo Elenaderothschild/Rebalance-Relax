@@ -207,7 +207,7 @@ main {
             border: 1px solid black;
             padding: 5px;
         }
-    
+        
     }
 
     hr {
@@ -397,14 +397,14 @@ img {
         background: rgba(255,255,255,0.4);
         padding: 20px;
         margin-bottom: 20px;
-        object-fit: scale-down;
         width: 100%;
         color: rgb(29, 28, 28);
     
     }
     .treatment-item h2{
-        margin-bottom: 10px !important;
+         margin-bottom: 10px !important;
          color: rgb(29, 28, 28);
+         text-decoration: none !important;
     }
     .treatment-item p {
         font-size: uppercase;
@@ -413,6 +413,7 @@ img {
   .treatment-container {
     background: url("../images/whiteflowers.jpg") no-repeat center/cover;
     }
+
    
 
 
