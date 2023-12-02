@@ -175,8 +175,8 @@ main {
     display: none;
     }
 
-    table {
-        width: 70%;
+    /*table {
+        width: 100%;
     }
     tr {
         display: grid;
@@ -184,7 +184,7 @@ main {
     }
     tr,td {
         text-align: center;
-    }
+    }*/
 
     /* Media query for mobile screens */
     @media screen and (min-width: 280px){
@@ -194,20 +194,22 @@ main {
         }
 
         table {
-            width: 70%;
-        }
+            width: 100%;}
+          
         tr {
-            display: grid;
             grid-template-columns: 2fr 2fr 2fr;
         }
         tr,td {
             text-align: center;
         }
         td {
-            border: 1px solid black;
+            border: 0.5px solid black;
             padding: 5px;
         }
         
+    #treatments {
+        background-color: rgba(183, 164, 145, 0.4);
+    }
     }
 
     hr {
@@ -223,7 +225,7 @@ background-position: 75%;
 padding: 20px 10% 0 10%;
 flex-grow: 1;
 background-color: #f9f6f2;
-height: 100vh;
+height: 75vh;
 }
 
 #get-in-touch h2 {
@@ -236,7 +238,6 @@ height: 100vh;
 .contact {
     padding: 30px;
     background-color: rgba(255,255,255,0.4);
-    margin-top: 30%;
 }
 
 .text-input {
@@ -401,10 +402,14 @@ img {
         color: rgb(29, 28, 28);
     
     }
-    .treatment-item h2{
-         margin-bottom: 10px !important;
+    .treatment-item h3 {
+         margin-bottom: 10px;
          color: rgb(29, 28, 28);
-         text-decoration: none !important;
+         text-transform: uppercase;
+         font-size: 130%;
+         font-family: 'DM Serif Display','Serif';
+         text-align: center;
+         
     }
     .treatment-item p {
         font-size: uppercase;
@@ -414,6 +419,12 @@ img {
     background: url("../images/whiteflowers.jpg") no-repeat center/cover;
     }
 
+    #discounts h2 {
+     margin-top: 20px;
+    }
+table {
+    table-layout: fixed;
+}
    
 
 
@@ -421,15 +432,15 @@ img {
 
     #get-in-touch {
     background-image: url("../images/greenleaf.webp");
-    background-size: cover;
-    background-position: 75%;
+    height: 75vh;
+    background-position: 50%;
     padding: 20px 10% 0 10%;
     flex-grow: 1;
 }
 
 .contact {
     font-size: 200%;
-    margin-top: 25%;
+    margin-top: 10%;
 }
 .text-input {
     height: 50px;
@@ -456,6 +467,7 @@ textarea {
  }
  footer {
     font-size: 200%;
+    max-height: 150px;
  }
  #social-networks i {
     font-size: 200%;
@@ -485,7 +497,8 @@ textarea {
     font-size: 210%;
 }
 header a {
-    font-size: 130%;
+    font-size: 100%;
+    
 }
 
 /* Treatments page */
@@ -499,12 +512,14 @@ details {
 
 /* Contact page */
 .contact {
-    margin-top: 20%;
-    margin-bottom: 20%;
+    width: 100%;
+    margin-top: 25%;
+
 }
 #get-in-touch {
-    height: 100%;
+    height: 50vh;
     width: 100%;
+   
 }
 }
 
