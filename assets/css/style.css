@@ -225,7 +225,8 @@ background-position: 75%;
 padding: 20px 10% 0 10%;
 flex-grow: 1;
 background-color: #f9f6f2;
-height: 75vh;
+min-height: 75vh;
+width: 100%;
 }
 
 #get-in-touch h2 {
@@ -238,6 +239,7 @@ height: 75vh;
 .contact {
     padding: 30px;
     background-color: rgba(255,255,255,0.4);
+    margin-bottom: 10%;
 }
 
 .text-input {
@@ -412,7 +414,6 @@ img {
          
     }
     .treatment-item p {
-        font-size: uppercase;
         font-size: 150%;
     }
   .treatment-container {
@@ -432,7 +433,7 @@ table {
 
     #get-in-touch {
     background-image: url("../images/greenleaf.webp");
-    height: 75vh;
+    min-height: 75vh;
     background-position: 50%;
     padding: 20px 10% 0 10%;
     flex-grow: 1;
@@ -513,13 +514,13 @@ details {
 /* Contact page */
 .contact {
     width: 100%;
-    margin-top: 25%;
-
+    margin-top: 15%;
+    margin-bottom: 10%;
 }
+
 #get-in-touch {
-    height: 50vh;
     width: 100%;
-   
+    background-position: 75%;
 }
 }
 
