@@ -66,28 +66,27 @@ The drop-down treatment menu is used to prevent information overload at first gl
 
 ### **Skeleton**
 
-[Wireframes]
+![Wireframes](docs/wireframes)
 
-The website differs slightly from created wireframes. Once created the treatments page looked bare with not enough content so I decided add more images.
+The website differs slightly from created wireframes. Once created the treatments and home page looked bare so I decided to add more images and content, and change the layout for better visual experience.
 
 ### **Surface**
 
 I chose colour palette based around beige/brown tones as I find those colours being calm, warm and comforting that suit business idea of relaxation and stress relief. I chose black color text to allow appropriate contrast. I used Google fonts DM Sans and DM Serif Display.
 I felt DM Serif Display provides for a touch of luxury and DM Sans complements DM Serif Display and allows for easy read. 
-
-
-![](docs/images/font_selection.png)
-
 ---
 
 ## **Features**
+
  This Is a fully responsive website that was designed mobile-first as many people would use mobiles to view it. First page is divided into two sections and the other two pages just have one section. The background colour with opacity has been used to provide contrast to cover-text and images. I used DM Serif Display for all of the headings and DM Sans Serif for the body text. This allows for cohesive design throughout the website.
 
 ### *Navbar*
 
-The navbar is positioned on the top of the page, the menu collapses into a hamburger icon for space saving on mobile screens. 
+The navbar is positioned on the top of the page, the menu collapses into a hamburger icon for space saving on mobile screens. The navigation bar is fully responsive with links to Home, Treatments and Contact pages. This allows the user to easily navigate from page to page.
 
 ### *Home*
+
+![Home page](docs/homepage.png)
 
 This is an introduction of the service provider where he shares his path to being a massage therapist. I used H2 and H3 elements followed by three paragraphs.
 
