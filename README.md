@@ -2,9 +2,10 @@
 
 [Visit the website here](https://elenaderothschild.github.io/Rebalance-Relax/)
 
-Created as an online platform for individuals to learn about, explore and engage with the massage therapy services offered by an individual practitioner. The website serves a virtual gateway, providing information, building trust, and facilitating the booking process to enhance the overall experience for clients seeking massage services.
+![](docs/amiresponsive.png)
 
-![](docs/images/amiresponsive_image.png)
+
+Created as an online platform for individuals to learn about, explore and engage with the massage therapy services offered by an individual practitioner. The website serves a virtual gateway, providing information, building trust, and facilitating the booking process to enhance the overall experience for clients seeking massage services.
 
 This website is made up of the following sections:
 
