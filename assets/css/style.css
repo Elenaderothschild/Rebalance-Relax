@@ -246,6 +246,7 @@ textarea {
     height: 80px;
     margin: 5px 0 5px 0;
     border: 1px solid;
+    font-family: 'DM Sans',serif;
 }
 
 .send {
@@ -435,6 +436,8 @@ table {
 }
 textarea {
     height: 150px;
+    font-size: 100%;
+    font-family: 'DM Sans',serif;
 }
  
  /* About me section */
