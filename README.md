@@ -92,11 +92,12 @@ This is an introduction of the service provider where he shares his path to bein
 
 ### *Treatments*
 
-This page has a treatment menu. I used Details element. It allows to see information at a glance and then read more about the treatments when clicking the arrow.
+This page has a treatment menu which has information about types of treatment and prices. I used Details element for a mobile screen layout. It allows to see information at a glance and then read more about the treatments when clicking the arrow. I used the table to organise pricing information for treatment bundles.
+I have changed the layout for larger screens to make use of the space and provide better visual user experience.
 
 ### *Contact*
 
-This is a contact form which allows a user to send an enquiry. The form uses 2 text inputs,an email input,textarea element and a send button.
+This is a contact form which allows a user to send an enquiry. The form uses 2 text inpits, an email input, textarea element and a send button.
 ---
 ## Technologies Used 
 
@@ -105,7 +106,7 @@ I have used several technologies that have enabled this design to work:
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
     - Building block to structure the content
 - [CSS](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
-    -Style the web content
+    - Style the web content
 - [Google Fonts](https://fonts.google.com/)
     - To import fonts used in the proejct
 - [Font Awesome](https://fontawesome.com/)
@@ -115,11 +116,11 @@ I have used several technologies that have enabled this design to work:
 - [GitHub](https://github.com/)
     - To store code for the proejct
 - [Git](https://git-scm.com/)
-    - 
+    - Used to commit to Git and push to Github
 - [Codeanywhere](https://app.codeanywhere.com/)
-    -
+    - Used as a developmemt environment
 - [Balsamiq](https://balsamiq.com/)
-    - 
+    - Used to create wireframes for the project
 - [AutoPrefixer](https://autoprefixer.github.io/)
     - 
 - [Favicon.io](https://favicon.io/)
