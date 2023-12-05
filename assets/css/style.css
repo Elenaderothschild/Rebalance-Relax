@@ -154,8 +154,33 @@ main {
         flex-direction: column;
         text-align: justify;
         margin-top: 10px;
-        margin-bottom: 10px;
     }
+    /* Testimonials section*/
+
+    #container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+   #container div {
+        text-align: center;
+        background-color: rgba(208,195,195,0.4);
+        padding: 15px;
+        flex-basis: 200px;
+        flex-grow: 1;
+   }
+   #testimonials h2 {
+    text-align: center;
+    font-size: 120%;
+   }
+   #testimonials {
+    padding: 10px 40px;
+    margin-bottom: 20px;
+   }
+   #testimonials p {
+    text-align: justify;
+    font-style: italic;
+   }
 
     /* Treatments page */
 
@@ -195,14 +220,19 @@ main {
             border: 0.5px solid black;
             padding: 5px;
         }
-        
+    
     #treatments {
         background-color: rgba(208,195,195,0.4);
     }
-    table{
+    table {
         background-color: rgba(208,195,195,0.4);
     }
+    /* Home Page testimonials section */
+    #testimonials {
+        padding: 0px 16px;
+        margin-top: 15px;
     }
+}
 
     hr {
         border-top: 1px solid rgb(29, 28, 28);
