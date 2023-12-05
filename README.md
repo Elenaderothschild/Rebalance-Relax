@@ -79,7 +79,7 @@ I felt DM Serif Display provides for a touch of luxury and DM Sans complements D
 
 ## **Features**
 
- This Is a fully responsive website that was designed mobile-first as many people would use mobiles to view
+ This is a fully responsive website that was designed mobile-first as many people would use mobiles to view
  it. First page is divided into two sections and the other two pages just have one section. The background colour with opacity has been used to provide contrast to cover-text and images. I used DM Serif Display for all of the headings and DM Sans Serif for the body text. This allows for cohesive design throughout the website.
 
 ### *Navbar*
@@ -91,6 +91,7 @@ The navbar is positioned on the top of the page, the menu collapses into a hambu
 ![Home page](docs/homepage.png)
 
 This is an introduction of the service provider where he shares his path to being a massage therapist. I used H2 and H3 elements followed by three paragraphs.
+This page also has a testimonials section.
 
 ### *Treatments*
 
@@ -100,6 +101,10 @@ I have changed the layout for larger screens to make use of the space and provid
 ### *Contact*
 
 This is a contact form which allows a user to send an enquiry. The form uses 2 text inpits, an email input, textarea element and a send button.
+
+### *Features left to implement*
+
+I would like to add online booking, payment feature and cancellation policy.
 
 ---
 
@@ -140,8 +145,28 @@ I have used several technologies that have enabled this design to work:
 ---
 ## Testing
 
-### **X**
+### **User goals**
 
+As a user, I want clear navigation on the website pages and to easily find information about the types of massages available.
+
+![Navbar](docs/navbar.png)
+
+As a potential client, I would want to see a professional and inviting design on the website.
+As someone seeking massage therapy for a specific concern, I would like to see detailed information about different massage techniques.
+
+![Massage techniques description](docs/techniques.png)
+
+As a first-time user I am interested in seeing testimonials from previous clients to give guidance on the level of satisfaction from offered services.
+
+![Testimonials](docs/testimonials.png)
+
+As a person interested in the cost of services, I want to see aclear pricing information and any available package deals.
+
+![Bundles](docs/bundles.png)
+
+As a user seeking convenience, I would like to have an easy option to make and enquiry and contact the therapist.
+
+![Get in touch](docs/contact.png)
 
 ### **Lighthouse**
 
@@ -151,7 +176,7 @@ I have used several technologies that have enabled this design to work:
 
 ### **Known bugs and fixes**
 
-
+The bugs encountered were typos and syntax errors which were discovered using CSS and HTML validators.
 
 ---
 ## Deployment
