@@ -73,12 +73,14 @@ The website differs slightly from created wireframes. Once created the treatment
 ### **Surface**
 
 I chose colour palette based around beige/brown tones as I find those colours being calm, warm and comforting that suit business idea of relaxation and stress relief. I chose black color text to allow appropriate contrast. I used Google fonts DM Sans and DM Serif Display.
-I felt DM Serif Display provides for a touch of luxury and DM Sans complements DM Serif Display and allows for easy read. 
+I felt DM Serif Display provides for a touch of luxury and DM Sans complements DM Serif Display and allows for easy read.
+
 ---
 
 ## **Features**
 
- This Is a fully responsive website that was designed mobile-first as many people would use mobiles to view it. First page is divided into two sections and the other two pages just have one section. The background colour with opacity has been used to provide contrast to cover-text and images. I used DM Serif Display for all of the headings and DM Sans Serif for the body text. This allows for cohesive design throughout the website.
+ This Is a fully responsive website that was designed mobile-first as many people would use mobiles to view
+ it. First page is divided into two sections and the other two pages just have one section. The background colour with opacity has been used to provide contrast to cover-text and images. I used DM Serif Display for all of the headings and DM Sans Serif for the body text. This allows for cohesive design throughout the website.
 
 ### *Navbar*
 
@@ -98,7 +100,9 @@ I have changed the layout for larger screens to make use of the space and provid
 ### *Contact*
 
 This is a contact form which allows a user to send an enquiry. The form uses 2 text inpits, an email input, textarea element and a send button.
+
 ---
+
 ## Technologies Used 
 
 I have used several technologies that have enabled this design to work:
@@ -121,20 +125,18 @@ I have used several technologies that have enabled this design to work:
     - Used as a developmemt environment
 - [Balsamiq](https://balsamiq.com/)
     - Used to create wireframes for the project
-- [AutoPrefixer](https://autoprefixer.github.io/)
-    - 
 - [Favicon.io](https://favicon.io/)
     - Used to create favicon's for my website
 - [Tiny.png](https://tinypng.com/)
-    - 
+    - To compress the images for faster loading
 - [W3C Markup Validation Service](https://validator.w3.org/) 
-    - 
+    - Used to validate all HTML code
 - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input)
-
-- [AmIResponsive](http://ami.responsivedesign.is/)
-    - 
--[ Pexels.com]
-
+    - Used to validate all CSS code
+- [AmIResponsive](httpT://ami.responsivedesign.is/)
+    - Used to generate responsive image for the README file
+- [Pexels.com]
+    - Used to source out images for the project
 ---
 ## Testing
 
