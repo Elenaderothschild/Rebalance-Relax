@@ -1,5 +1,5 @@
 
-o{
+{
   "name": "Codeinstitute template",
   "dockerComposeFile": "docker-compose.yml",
   "service": "app",
