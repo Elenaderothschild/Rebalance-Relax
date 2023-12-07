@@ -126,7 +126,6 @@ main {
    height: 600px;
    width: 100%;
    background: url("../images/hero-image.jpg") no-repeat center center/cover;
-
 }
 
     /* About me */
@@ -162,7 +161,7 @@ main {
     }
     #bio h3 {
         text-align: center;
-        font-size: 90%;
+        font-size: 70%;
         font-family: 'DM Sans',serif;
     }
     /* Testimonials section*/
@@ -271,7 +270,8 @@ width: 100%;
 .contact {
     padding: 30px;
     background-color: rgba(255,255,255,0.4);
-    margin-bottom: 10%;
+    /*margin-bottom: 10%;*/
+    margin-top: 5px;
 }
 
 .text-input {
@@ -424,7 +424,7 @@ img {
         flex-direction: column;
     }
     .treatment-item {
-        background: rgba(255,255,255,0.4);
+        background: rgba(255,255,255,0.6);
         padding: 20px;
         margin-bottom: 20px;
         width: 100%;
@@ -524,12 +524,19 @@ textarea {
      color: rgb(29, 28, 28);
 }
 
-#image-container {
+.image-container {
     display: flex;
+    align-items: center;
 }
-.inner {
-    flex-grow: 1;
-    flex-basis: 200%;
+.image {
+    flex-basis: 60%;
+}
+img {
+    max-width: 100%;
+}
+.text {
+    font-size: 20px;
+    padding-left: 20px;
 }
 /* Header */
 #logo {
