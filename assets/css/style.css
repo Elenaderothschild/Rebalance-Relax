@@ -125,7 +125,7 @@ main {
 #hero {
    height: 600px;
    width: 100%;
-   background: url("../images/hero-image.jpg") no-repeat center center/cover;
+   background: url("../images/heronew.jpg") no-repeat center center/cover;
 }
 
     /* About me */
@@ -162,7 +162,7 @@ main {
     #bio h3 {
         text-align: center;
         font-size: 70%;
-        font-family: 'DM Sans',serif;
+       
     }
     /* Testimonials section*/
 
@@ -270,8 +270,6 @@ width: 100%;
 .contact {
     padding: 30px;
     background-color: rgba(255,255,255,0.4);
-    /*margin-bottom: 10%;*/
-    margin-top: 5px;
 }
 
 .text-input {
@@ -467,7 +465,7 @@ table {
 }
 
 .contact {
-    font-size: 200%;
+    font-size: 140%;
     margin-top: 20%;
 }
 .text-input {
@@ -485,9 +483,8 @@ textarea {
  #bio h2 {
     font-size: 100%;
  }
- #bio h3 {
+ #bio p {
     font-size: 80%;
-    text-transform: uppercase;
  }
  #bio {
     font-size: 200%;
