@@ -118,7 +118,7 @@ main {
     flex: 1 0 auto;
     margin-top: 41.5px;
     flex-direction: column;
-    /*display: flex;*/
+    display: flex;
 }
 
 /* Hero section */
@@ -255,21 +255,19 @@ background-size: cover;
 background-position: 75%;
 padding: 20px 10% 0 10%;
 flex-grow: 1;
-background-color: #f9f6f2;
-min-height: 75vh;
-width: 100%;
+position: relative;
 }
 
 #get-in-touch h2 {
     font-size: 110%;
     margin-bottom: 20px;
     font-family: 'DM Serif Display', Serif;
- 
 }
 
-.contact {
+#contact {
     padding: 30px;
     background-color: rgba(255,255,255,0.4);
+   
 }
 
 .text-input {
@@ -457,14 +455,15 @@ table {
     /* Contact page */
 
     #get-in-touch {
-    background-image: url("../images/greenleaf.webp");
-    min-height: 75vh;
-    background-position: 50%;
+    /*background-image: url("../images/greenleaf.webp");
+    background-position: 75%;
     padding: 20px 10% 0 10%;
-    flex-grow: 1;
+    flex-grow: 1;*/
+    background-position: center;
+   
 }
 
-.contact {
+#contact {
     font-size: 140%;
     margin-top: 20%;
 }
@@ -554,10 +553,8 @@ details {
 }
 
 /* Contact page */
-.contact {
-    width: 100%;
-    margin-top: 15%;
-    margin-bottom: 10%;
+#contact {
+   margin-top: 10%;
 }
 
 #get-in-touch {
@@ -565,6 +562,5 @@ details {
     background-position: 75%;
 }
 }
-
 
 
