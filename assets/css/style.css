@@ -54,7 +54,6 @@ h2 {
 
 /* Header */
 header {
-    /*background-color:#f9f6f2;*/
     background-color: #FAF9F6;
     padding: 0 1rem;
     z-index: 99;
@@ -267,6 +266,7 @@ position: relative;
 #contact {
     padding: 30px;
     background-color: rgba(255, 255, 255, 0.4);
+    margin-bottom: 2em;
    
 }
 
@@ -290,7 +290,6 @@ textarea {
     font-size: 100%;
     padding: 5px 5px;
     border: 1px solid;
-
 }
 
 /* Footer */
@@ -457,27 +456,25 @@ table {
     /* Contact page */
 
     #get-in-touch {
-    /*background-image: url("../images/greenleaf.webp");
-    background-position: 75%;
-    padding: 20px 10% 0 10%;
-    flex-grow: 1;*/
     background-position: center;
-   
 }
 
 #contact {
     font-size: 140%;
-    margin-top: 20%;
+    margin-top: 15%;
 }
 .text-input {
     height: 50px;
     font-size: 100%;
 }
+}
+
 textarea {
     height: 150px;
     font-size: 100%;
     font-family: 'DM Sans',serif;
 }
+
  
  /* About me section */
 
@@ -500,7 +497,7 @@ textarea {
  #social-networks i {
     font-size: 200%;
  }
-}
+
 /* Media query: laptops and larger (992px and up */
 @media screen and (min-width: 992px) {
     #menu a:hover {
@@ -532,7 +529,7 @@ img {
     max-width: 100%;
 }
 .text {
-    /*font-size: 20px;*/
+   
     padding-left: 20px;
 }
 /* Header */
@@ -554,9 +551,6 @@ details {
 }
 
 /* Contact page */
-#contact {
-   margin-top: 10%;
-}
 
 #get-in-touch {
     width: 100%;
