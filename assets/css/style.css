@@ -16,7 +16,7 @@ body {
     /* Generic project styles */
     color: rgb(29, 28, 28);
     font-family: 'DM Sans', sans-serif;
-    background-color: #f9f6f2;
+    background-color: #f7f5f5;
 }
 
 h1 {
@@ -54,7 +54,8 @@ h2 {
 
 /* Header */
 header {
-    background-color:#f9f6f2;
+    /*background-color:#f9f6f2;*/
+    background-color: #f7f5f5;
     padding: 0 1rem;
     z-index: 99;
     position: fixed;
@@ -90,7 +91,7 @@ header a {
 /* Nav bar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color: #f9f6f2;
+    background-color: #f7f5f5;
     width: 100%;
     left:0;
     padding: 0 1rem;
@@ -133,18 +134,16 @@ main {
         width: 100%;
         margin: auto;
         display: inline-flex;
-        background-color: #f9f6f2;
+        background-color: rgba(208,195,195, 0.1);
       
     }
     #about-me h2 {
         font-size: 120%;
         text-align: center;
-        text-decoration: underline;
         font-family: 'DM Serif Display', Serif;
     }
     #about-me h3 {
         font-size: 100%;
-        text-transform: uppercase;
         font-family: 'DM Serif Display', Serif;
     }
 
@@ -162,6 +161,7 @@ main {
     #bio h3 {
         text-align: center;
         font-size: 70%;
+        padding: 5px;
        
     }
     /* Testimonials section*/
@@ -295,7 +295,7 @@ textarea {
 
 /* Footer */
 footer {
-    background-color: #f9f6f2;
+    background-color: #f7f5f5;
     text-decoration: none;
     text-align: center;
     height: 150px;
@@ -449,9 +449,11 @@ img {
 table {
     table-layout: fixed;
 }
+#testimonials {
+    padding: 0 40px;
+    margin-top: auto;
+}
    
-
-
     /* Contact page */
 
     #get-in-touch {
@@ -530,7 +532,7 @@ img {
     max-width: 100%;
 }
 .text {
-    font-size: 20px;
+    /*font-size: 20px;*/
     padding-left: 20px;
 }
 /* Header */
