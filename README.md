@@ -62,13 +62,13 @@ Given the age group of users the website is likely to be viewed on different scr
  
 This is a three-page website to allow desired information to fit. It has navigation bar at the top which allows users to access different parts of the website.
 I tried to mix pieces of information with images to aid better visual experience.
-The drop-down treatment menu is used to prevent information overload at first glance and also save space on mobile screens. It allows immediate basic information uptake with an option of going into more detail if required.
+The drop-down treatment menu is used to prevent information overload at first glance and also save space on mobile screens. It allows immediate basic information uptake with an option of going into more detail if required. Different layout is used for larger screens to make use of available space.
 
 ### **Skeleton**
 
 ![Wireframes](docs/wireframes)
 
-The website differs slightly from created wireframes. Once created the treatments and home page looked bare so I decided to add more images and content, and change the layout for better visual experience.
+The website differs from created wireframes. Once created the treatments and home page looked bare so I decided to add more images and content, and change the layout for better visual experience. The feedback from friends and family also influenced the changes.
 
 ### **Surface**
 
@@ -90,12 +90,11 @@ The navbar is positioned on the top of the page, the menu collapses into a hambu
 
 ![Home page](docs/homepage.png)
 
-This is an introduction of the service provider where he shares his path to being a massage therapist. I used H2 and H3 elements followed by three paragraphs.
-This page also has a testimonials section.
+This is an introduction of the service provider where he shares his path to being a massage therapist. It also mentions therapist's qualifications. I used H2 and H3 elements followed by three paragraphs and an image of the therapist. This page also has a testimonials section.
 
 ### *Treatments*
 
-This page has a treatment menu which has information about types of treatment and prices. I used Details element for a mobile screen layout. It allows to see information at a glance and then read more about the treatments when clicking the arrow. I used the table to organise pricing information for treatment bundles.
+This page has a treatment menu which has information about types of treatment and prices. I used Details element for a mobile screen layout. It allows to see information at a glance and then read more about the treatments when clicking the arrow. I used a table to organise pricing information for treatment bundles.
 I have changed the layout for larger screens to make use of the space and provide better visual user experience.
 
 ### *Contact*
@@ -214,18 +213,17 @@ The following websites/articles were used for research and guidance:
 
 - [Media Queries](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/)
 
-I used code from the following resources:
-
+- [W3Schools](https://www.w3schools.com)
 
 The below websites were used for the content: 
 
-- I wrote most of the content but I used 
-- A number of the images come from found on [Pexels](https://pexels.com).
+- The content and a therapist's photo came from the massage therapist
+- A number of the images were found on [Pexels](https://pexels.com), [Istock](https://istockphoto.com)
 
 ---
 ## Acknowledgements
 
-I would like to thank my course mentor Jubril Akolade for his support and guidance throughout the course of the project and Codeanywhere tutors Sarah and Gemma.
+I would like to thank my course mentor Jubril Akolade for his support and guidance throughout the course of the project and Codeanywhere tutors Sarah, Gemma and John.
 
 ---
 
