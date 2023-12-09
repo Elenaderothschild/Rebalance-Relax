@@ -16,7 +16,7 @@ body {
     /* Generic project styles */
     color: rgb(29, 28, 28);
     font-family: 'DM Sans', sans-serif;
-    background-color: #f7f5f5;
+    background-color: #FAF9F6;
 }
 
 h1 {
@@ -55,7 +55,7 @@ h2 {
 /* Header */
 header {
     /*background-color:#f9f6f2;*/
-    background-color: #f7f5f5;
+    background-color: #FAF9F6;
     padding: 0 1rem;
     z-index: 99;
     position: fixed;
@@ -91,7 +91,7 @@ header a {
 /* Nav bar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color: #f7f5f5;
+    background-color: #FAF9F6;
     width: 100%;
     left:0;
     padding: 0 1rem;
@@ -134,7 +134,7 @@ main {
         width: 100%;
         margin: auto;
         display: inline-flex;
-        background-color: rgba(208,195,195, 0.1);
+        background-color: #FAF9F6;
       
     }
     #about-me h2 {
@@ -266,7 +266,7 @@ position: relative;
 
 #contact {
     padding: 30px;
-    background-color: rgba(255,255,255,0.4);
+    background-color: rgba(255, 255, 255, 0.4);
    
 }
 
@@ -295,7 +295,7 @@ textarea {
 
 /* Footer */
 footer {
-    background-color: #f7f5f5;
+    background-color: #FAF9F6;
     text-decoration: none;
     text-align: center;
     height: 150px;
