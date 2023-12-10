@@ -198,11 +198,12 @@ main {
     }
 
     #services h2 {
-        margin-bottom: 20px;
+        margin-bottom: 15px;
         text-align: center;
         font-size: 120%;
         text-decoration: underline;
         font-family: 'DM Serif Display', Serif;
+        margin-top: 10px;
     }
     #treatments-large {
     display: none;
@@ -231,6 +232,7 @@ main {
     
     #treatments {
         background-color: rgba(208,195,195,0.4);
+        padding: 10px 20px;
     }
     table {
         background-color: rgba(208,195,195,0.4);
@@ -290,6 +292,7 @@ textarea {
     font-size: 100%;
     padding: 5px 5px;
     border: 1px solid;
+    cursor: pointer;
 }
 
 /* Footer */
@@ -303,9 +306,8 @@ footer {
 #social-networks {
     color: rgb(29, 28, 28);
     display: block;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
     text-align: center;
+    padding-bottom: 15px;
 
 }
 
@@ -491,7 +493,6 @@ textarea {
     margin-top: auto;
  }
  footer {
-    font-size: 200%;
     max-height: 150px;
  }
  #social-networks i {
