@@ -41,7 +41,13 @@ I chose soothing and calming colour scheme to complement images and create a tra
 
 ## Typography
 
-Google fonts was used to import chosen fonts for the website. I have used DM Serif Display as I felt it looked modern, traditional yet classy. I used DM Sans 
+Google fonts was used to import chosen fonts for the website. I have used DM Serif Display as I felt it looked modern, traditional yet classy. 
+
+![DM Serif Display](docs/dmserif.jpg)
+
+I used DM Sans for the body of the website as I felt it has neutral and approachable appearance with clean and contemporary design. It offers readability across different platforms and sizes.
+
+![DM Sans](docs/dmsans.jpg)
 
 ## UX
 ---
@@ -162,7 +168,7 @@ As a user, I want clear navigation on the website pages and to easily find infor
 As a potential client, I would want to see a professional and inviting design on the website.
 As someone seeking massage therapy for a specific concern, I would like to see detailed information about different massage techniques.
 
-![Massage techniques description](docs/techniques.png)
+![Massage techniques description](docs/techniques.jpg)
 
 As a first-time user I am interested in seeing testimonials from previous clients to give guidance on the level of satisfaction from offered services.
 
@@ -174,13 +180,17 @@ As a person interested in the cost of services, I want to see aclear pricing inf
 
 As a user seeking convenience, I would like to have an easy option to make and enquiry and contact the therapist.
 
-![Get in touch](docs/contact.png)
+![Get in touch](docs/contact.jpg)
 
 ### **Lighthouse**
 
+![Lighthouse report](docs/lighthouse.jpg)
 
 ### **HTML and CSS Validation**
 
+![CSS validator](docs/cssvalidator.jpg)
+
+![HMTL validator](docs/hmtlvalidator.jpg)
 
 ### **Known bugs and fixes**
 
@@ -214,11 +224,7 @@ Cloning your repository will allow you to download a local version of the reposi
 ---
 ## Credits
 
-I have used a number of resources to produce this website, where code has been used found from another source this is credited as a comment within the HTML and CSS files.
-
 The following websites/articles were used for research and guidance:
-
-- [Wireframes](https://careerfoundry.com/en/blog/ux-design/wireframing-mobile-apps-websites/)
 
 - [Media Queries](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/)
 
@@ -226,7 +232,7 @@ The following websites/articles were used for research and guidance:
 
 The below websites were used for the content: 
 
-- The content and a therapist's photo came from the massage therapist
+- The content and therapist's photo came from the massage therapist
 - A number of the images were found on [Pexels](https://pexels.com), [Istock](https://istockphoto.com)
 
 ---
