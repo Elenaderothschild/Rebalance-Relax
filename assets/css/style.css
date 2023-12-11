@@ -303,10 +303,10 @@ textarea {
     cursor: pointer;
 }
 button[type="submit"]{
-    color:rgb(29, 28, 28);
+    color:rgb(29, 28, 28)!important;
     padding: 5px 5px;
     font-size: 100%;
-    cursor: pointer;
+    background-color: white! important;
 }
 
 /* Footer */

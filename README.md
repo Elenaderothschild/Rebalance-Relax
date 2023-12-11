@@ -37,8 +37,11 @@ The user goals of this website are:
 
 ### **Colour Scheme**
 
-I chose soothing and calming colour scheme to complement images and create a tranquil and relaxing atmosphere. Neutral off white helps to create a clean and pure environments and beige/gray complements other colours and adds a sense of sophistication. I chose black colour for the text to provide enough contrast for readability for the users.
-I have used RGB (29,28,28) for the text.
+I chose soothing and calming colour scheme to complement images and create a tranquil and relaxing atmosphere. Neutral off white #FAF9F6 and transparent rgba(255,255,255,0.4) helps to create a clean and pure environments and beige/gray rgba (208,195,195,0.4) complements other colours and adds a sense of sophistication. I chose black colour rgb(29,28,28) for the text to provide enough contrast for readability for the users.
+
+## Typography
+
+Google fonts was used to import chosen fonts for the website. I have used DM Serif Display as I felt it looked modern, traditional yet classy. I used DM Sans 
 
 ## UX
 ---
