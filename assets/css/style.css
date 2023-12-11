@@ -153,15 +153,15 @@ main {
         text-align: justify;
         margin-top: 10px;
     }
-    #bio img {
-        width: 100%;
-       
-    }
+ 
     #bio h3 {
         text-align: center;
-        font-size: 70%;
+        font-size: 100%;
         padding: 5px;
        
+    }
+    #bio p {
+        text-align: justify;
     }
     /* Testimonials section*/
 
@@ -208,6 +208,9 @@ main {
     #treatments-large {
     display: none;
     }
+    footer a {
+        color: rgb(29, 28, 28);
+    }
 
     /* Media query for mobile screens */
     @media screen and (min-width: 280px){
@@ -237,12 +240,17 @@ main {
     table {
         background-color: rgba(208,195,195,0.4);
     }
+
     /* Home Page testimonials section */
     #testimonials {
         padding: 0px 16px;
         margin-top: 15px;
     }
+    img {
+        width: 100%;
+    }
 }
+
 
     hr {
         border-top: 1px solid rgb(29, 28, 28);
@@ -469,6 +477,12 @@ table {
     height: 50px;
     font-size: 100%;
 }
+#bio {
+    font-size: 100%;
+    padding: 40px;
+    padding-right: 40px;
+    margin-top: auto;
+ }
 }
 
 textarea {
@@ -481,17 +495,12 @@ textarea {
  /* About me section */
 
  #bio h2 {
-    font-size: 100%;
+    font-size: 120%;
  }
  #bio p {
-    font-size: 80%;
+    font-size: 100%;
  }
- #bio {
-    font-size: 200%;
-    padding: 40px;
-    padding-right: 40px;
-    margin-top: auto;
- }
+
  footer {
     max-height: 150px;
  }

@@ -33,6 +33,9 @@ The user goals of this website are:
 3. To be able effectively communicate and book appointments via the contact form and direct contact details
 4. To learn about different types of massage therapy and their benefits to wellbeing
 
+## Design
+
+### **Colour Scheme**
 
 ## UX
 ---
