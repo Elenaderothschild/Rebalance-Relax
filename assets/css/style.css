@@ -302,6 +302,11 @@ textarea {
     border: 1px solid;
     cursor: pointer;
 }
+input[type="submit"]{
+    background-color: #FAF9F6 !important;
+    color:rgb(29, 28, 28) !important;
+   
+}
 
 /* Footer */
 footer {
