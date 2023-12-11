@@ -37,6 +37,9 @@ The user goals of this website are:
 
 ### **Colour Scheme**
 
+I chose soothing and calming colour scheme to complement images and create a tranquil and relaxing atmosphere. Neutral off white helps to create a clean and pure environments and beige/gray complements other colours and adds a sense of sophistication. I chose black colour for the text to provide enough contrast for readability for the users.
+I have used RGB (29,28,28) for the text.
+
 ## UX
 ---
 ### **Strategy**
