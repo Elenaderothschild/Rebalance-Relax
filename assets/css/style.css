@@ -236,6 +236,7 @@ main {
     #treatments {
         background-color: rgba(208,195,195,0.4);
         padding: 10px 20px;
+        margin-top: 5px;
     }
     table {
         background-color: rgba(208,195,195,0.4);
@@ -249,6 +250,7 @@ main {
     img {
         width: 100%;
     }
+    
 }
 
 

@@ -81,8 +81,10 @@ The drop-down treatment menu is used to prevent information overload at first gl
 
 ### **Skeleton**
 
-![Wireframes](docs/wireframes)
-
+![Wireframes](docs/wireframes/home.jpg)
+![Wireframes](docs/wireframes/treatmentsdesktop.jpg)
+![Wireframes](docs/wireframes/treatmentsmobile.jpg)
+![Wireframes](docs/wireframes/contact.jpg)
 The website differs from created wireframes. Once created the treatments and home page looked bare so I decided to add more images and content, and change the layout for better visual experience. The feedback from friends and family also influenced the changes.
 
 ### **Surface**
