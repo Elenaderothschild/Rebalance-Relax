@@ -39,13 +39,13 @@ The user goals of this website are:
 
 I chose soothing and calming colour scheme to complement images and create a tranquil and relaxing atmosphere. Neutral off white #FAF9F6 and transparent rgba(255,255,255,0.4) helps to create a clean and pure environments and beige/gray rgba (208,195,195,0.4) complements other colours and adds a sense of sophistication. I chose black colour rgb(29,28,28) for the text to provide enough contrast for readability for the users.
 
-## Typography
+## **Typography**
 
 Google fonts was used to import chosen fonts for the website. I have used DM Serif Display as I felt it looked modern, traditional yet classy. 
 
 ![DM Serif Display](docs/dmserif.jpg)
 
-I used DM Sans for the body of the website as I felt it has neutral and approachable appearance with clean and contemporary design. It offers readability across different platforms and sizes.
+I used DM Sans for the body of the website as I felt it had neutral and approachable appearance with clean and contemporary design. It offers readability across different platforms and sizes.
 
 ![DM Sans](docs/dmsans.jpg)
 
@@ -85,7 +85,8 @@ The drop-down treatment menu is used to prevent information overload at first gl
 ![Wireframes](docs/wireframes/treatmentsdesktop.jpg)
 ![Wireframes](docs/wireframes/treatmentsmobile.jpg)
 ![Wireframes](docs/wireframes/contact.jpg)
-The website differs from created wireframes. Once created the treatments and home page looked bare so I decided to add more images and content, and change the layout for better visual experience. The feedback from friends and family also influenced the changes.
+
+The website differs slightly from created wireframes. Once created the treatments and home page looked bare so I decided to add more images and content, and change the layout for better visual experience. The feedback from friends and family also influenced the changes.
 
 ### **Surface**
 
@@ -154,9 +155,9 @@ I have used several technologies that have enabled this design to work:
     - Used to validate all HTML code
 - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input)
     - Used to validate all CSS code
-- [AmIResponsive](httpT://ami.responsivedesign.is/)
+- [AmIResponsive](http://ami.responsivedesign.is/)
     - Used to generate responsive image for the README file
-- [Pexels.com]
+- [Pexels.com](https://pexels.com)
     - Used to source out images for the project
 ---
 ## Testing
