@@ -35,13 +35,14 @@ h2 {
     color: rgb(29, 28, 28);
 }
 
- #cover-text {
-   font-size: 70%;
-   text-align: center;
-   width: 100%;
-   bottom: 30px;
-   padding: 40px 0;
+#cover-text {
+    font-size: 70%;
+    text-align: center;
+    width: 100%;
+    bottom: 30px;
+    padding: 40px 0;
 }
+
 #cover-text>h2 {
     background-color: rgba(255, 255, 255, 0.7);
     color: rgb(29, 28, 28);
@@ -84,7 +85,7 @@ header a {
 }
 
 .active {
-    border-bottom: 1px solid rgb(29, 28, 28); 
+    border-bottom: 1px solid rgb(29, 28, 28);
 }
 
 /* Nav bar styles with dropdown toggle */
@@ -92,7 +93,7 @@ nav {
     position: absolute;
     background-color: #FAF9F6;
     width: 100%;
-    left:0;
+    left: 0;
     padding: 0 1rem;
     box-shadow: 0 2px 2px rgb(0, 0, 0, 0.4);
     display: none;
@@ -123,123 +124,137 @@ main {
 
 /* Hero section */
 #hero {
-   height: 600px;
-   width: 100%;
-   background: url("../images/hero-image.jpg") no-repeat center center/cover;
+    height: 600px;
+    width: 100%;
+    background: url("../images/hero-image.jpg") no-repeat center center/cover;
 }
 
-    /* About me */
-    #about-me {
-        width: 100%;
-        margin: auto;
-        display: inline-flex;
-        background-color: #FAF9F6;
-      
-    }
-    #about-me h2 {
-        font-size: 120%;
-        text-align: center;
-        font-family: 'DM Serif Display', Serif;
-    }
-    #about-me h3 {
-        font-size: 100%;
-        font-family: 'DM Serif Display', Serif;
-    }
+/* About me */
+#about-me {
+    width: 100%;
+    margin: auto;
+    display: inline-flex;
+    background-color: #FAF9F6;
 
-    #bio {
-        padding: 0 1rem;
-        display: flex;
-        flex-direction: column;
-        text-align: justify;
-        margin-top: 10px;
-    }
- 
-    #bio h3 {
-        text-align: center;
-        font-size: 100%;
-        padding: 5px;
-       
-    }
-    #bio p {
-        text-align: justify;
-    }
-    /* Testimonials section*/
+}
 
-    #container {
-        display: flex;
-        flex-wrap: wrap;
-    }
+#about-me h2 {
+    font-size: 120%;
+    text-align: center;
+    font-family: 'DM Serif Display', Serif;
+}
 
-   #container div {
-        text-align: center;
-        background-color: rgba(208,195,195,0.4);
-        padding: 15px;
-        flex-basis: 200px;
-        flex-grow: 1;
-   }
-   #testimonials h2 {
+#about-me h3 {
+    font-size: 100%;
+    font-family: 'DM Serif Display', Serif;
+}
+
+#bio {
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+#bio h3 {
+    text-align: center;
+    font-size: 100%;
+    padding: 5px;
+
+}
+
+#bio p {
+    text-align: justify;
+}
+
+/* Testimonials section*/
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#container div {
+    text-align: center;
+    background-color: rgba(208, 195, 195, 0.4);
+    padding: 15px;
+    flex-basis: 200px;
+    flex-grow: 1;
+}
+
+#testimonials h2 {
     text-align: center;
     font-size: 120%;
-   }
-   #testimonials {
+}
+
+#testimonials {
     padding: 10px 40px;
     margin-bottom: 20px;
-   }
-   #testimonials p {
+}
+
+#testimonials p {
     text-align: justify;
     font-style: italic;
-   }
+}
 
-    /* Treatments page */
+/* Treatments page */
 
-    #services {
-        margin: 20px auto;
-        padding: 0 10px;
-    }
+#services {
+    margin: 20px auto;
+    padding: 0 10px;
+}
 
-    #services h2 {
-        margin-bottom: 15px;
-        text-align: center;
-        font-size: 120%;
-        text-decoration: underline;
-        font-family: 'DM Serif Display', Serif;
-        margin-top: 10px;
-    }
-    #treatments-large {
+#services h2 {
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 120%;
+    text-decoration: underline;
+    font-family: 'DM Serif Display', Serif;
+    margin-top: 10px;
+}
+
+#treatments-large {
     display: none;
-    }
-    footer a {
-        color: rgb(29, 28, 28);
+}
+
+footer a {
+    color: rgb(29, 28, 28);
+}
+
+/* Media query for mobile screens */
+@media screen and (min-width: 280px) {
+    #services img {
+        max-width: 100%;
+        height: auto;
     }
 
-    /* Media query for mobile screens */
-    @media screen and (min-width: 280px){
-        #services img {
-            max-width: 100%;
-            height: auto;
-        }
+    table {
+        width: 100%;
+    }
 
-        table {
-            width: 100%;}
-          
-        tr {
-            grid-template-columns: 2fr 2fr 2fr;
-        }
-        tr,td {
-            text-align: center;
-        }
-        td {
-            border: 0.5px solid black;
-            padding: 5px;
-        }
-    
+    tr {
+        grid-template-columns: 2fr 2fr 2fr;
+    }
+
+    tr,
+    td {
+        text-align: center;
+    }
+
+    td {
+        border: 0.5px solid black;
+        padding: 5px;
+    }
+
     #treatments {
-        background-color: rgba(208,195,195,0.4);
+        background-color: rgba(208, 195, 195, 0.4);
         padding: 10px 20px;
         margin-top: 5px;
     }
+
     table {
-        background-color: rgba(208,195,195,0.4);
+        background-color: rgba(208, 195, 195, 0.4);
     }
 
     /* Home Page testimonials section */
@@ -247,26 +262,27 @@ main {
         padding: 0px 16px;
         margin-top: 15px;
     }
+
     img {
         width: 100%;
     }
-    
+
 }
 
 
-    hr {
-        border-top: 1px solid rgb(29, 28, 28);
-        margin: 5px 0;
-    }
-   
-     /* Contact page */
+hr {
+    border-top: 1px solid rgb(29, 28, 28);
+    margin: 5px 0;
+}
+
+/* Contact page */
 #get-in-touch {
-background-image: url("../images/greenleaf.webp");
-background-size: cover;
-background-position: 75%;
-padding: 20px 10% 0 10%;
-flex-grow: 1;
-position: relative;
+    background-image: url("../images/greenleaf.webp");
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+    position: relative;
 }
 
 #get-in-touch h2 {
@@ -279,7 +295,7 @@ position: relative;
     padding: 30px;
     background-color: rgba(255, 255, 255, 0.4);
     margin-bottom: 2em;
-   
+
 }
 
 .text-input {
@@ -294,7 +310,7 @@ textarea {
     height: 80px;
     margin: 5px 0 5px 0;
     border: 1px solid;
-    font-family: 'DM Sans',serif;
+    font-family: 'DM Sans', serif;
 }
 
 .send {
@@ -304,8 +320,9 @@ textarea {
     border: 1px solid;
     cursor: pointer;
 }
-button[type="submit"]{
-    color:rgb(29, 28, 28)!important;
+
+button[type="submit"] {
+    color: rgb(29, 28, 28) !important;
     padding: 5px 5px;
     font-size: 100%;
     background-color: white !important;
@@ -336,7 +353,7 @@ footer {
 footer p {
     text-decoration: underline;
     text-align: center;
-    color:rgb(29, 28, 28);
+    color: rgb(29, 28, 28);
 }
 
 footer h3 {
@@ -354,7 +371,7 @@ footer h3 {
         position: relative;
         box-shadow: none;
         width: fit-content;
-        padding-right: 2px; 
+        padding-right: 2px;
     }
 
     #menu {
@@ -387,193 +404,214 @@ footer h3 {
         width: 100%;
     }
 
-      #cover-text {
+    #cover-text {
         font-size: 120%;
         text-align: center;
         width: 100%;
         padding: 80px 0;
         margin-top: 50px;
-    
-     }
-     #cover-text>h2 {
-         background-color: rgba(255, 255, 255, 0.7);
-         color: rgb(29, 28, 28);
-     }
+
+    }
+
+    #cover-text>h2 {
+        background-color: rgba(255, 255, 255, 0.7);
+        color: rgb(29, 28, 28);
+    }
 
     /* Treatments page */
 
-#services {
-    margin-top: 60px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-#services h2 {
-    font-size: 150%;
-    margin-bottom: 40px;
-    text-align: center;
-    font-family: 'DM Serif Display', Serif;
-}
-
-#treatments p, summary {
-   font-size: 200%;
-}
-#treatments {
-    margin-top: 50px;
-}
-img {
-    width: 100%;
-    margin: 20px auto;
-    padding: 5px 10px;
-}
-#treatments {
-    display: none;
-}
-#treatments-large {
-    display: block;
+    #services {
+        margin-top: 60px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
+
+    #services h2 {
+        font-size: 150%;
+        margin-bottom: 40px;
+        text-align: center;
+        font-family: 'DM Serif Display', Serif;
+    }
+
+    #treatments p,
+    summary {
+        font-size: 200%;
+    }
+
+    #treatments {
+        margin-top: 50px;
+    }
+
+    img {
+        width: 100%;
+        margin: 20px auto;
+        padding: 5px 10px;
+    }
+
+    #treatments {
+        display: none;
+    }
+
+    #treatments-large {
+        display: block;
+    }
+
     .treatment-container {
         display: flex;
         flex-direction: column;
     }
+
     .treatment-item {
-        background: rgba(255,255,255,0.6);
+        background: rgba(255, 255, 255, 0.6);
         padding: 20px;
         margin-bottom: 20px;
         width: 100%;
         color: rgb(29, 28, 28);
-    
+
     }
+
     .treatment-item h3 {
-         margin-bottom: 10px;
-         color: rgb(29, 28, 28);
-         text-transform: uppercase;
-         font-size: 130%;
-         font-family: 'DM Serif Display','Serif';
-         text-align: center;
-         
+        margin-bottom: 10px;
+        color: rgb(29, 28, 28);
+        text-transform: uppercase;
+        font-size: 130%;
+        font-family: 'DM Serif Display', 'Serif';
+        text-align: center;
+
     }
+
     .treatment-item p {
         font-size: 150%;
     }
-  .treatment-container {
-    background: url("../images/whiteflowers.jpg") no-repeat center/cover;
+
+    .treatment-container {
+        background: url("../images/whiteflowers.jpg") no-repeat center/cover;
     }
 
     #discounts h2 {
-     margin-top: 20px;
+        margin-top: 20px;
     }
-table {
-    table-layout: fixed;
-}
-#testimonials {
-    padding: 0 40px;
-    margin-top: auto;
-}
-   
+
+    table {
+        table-layout: fixed;
+    }
+
+    #testimonials {
+        padding: 0 40px;
+        margin-top: auto;
+    }
+
     /* Contact page */
 
     #get-in-touch {
-    background-position: center;
-}
+        background-position: center;
+    }
 
-#contact {
-    font-size: 140%;
-    margin-top: 15%;
-}
-.text-input {
-    height: 50px;
-    font-size: 100%;
-}
-#bio {
-    font-size: 100%;
-    padding: 40px;
-    padding-right: 40px;
-    margin-top: auto;
- }
+    #contact {
+        font-size: 140%;
+        margin-top: 15%;
+    }
+
+    .text-input {
+        height: 50px;
+        font-size: 100%;
+    }
+
+    #bio {
+        font-size: 100%;
+        padding: 40px;
+        padding-right: 40px;
+        margin-top: auto;
+    }
 }
 
 textarea {
     height: 150px;
     font-size: 100%;
-    font-family: 'DM Sans',serif;
+    font-family: 'DM Sans', serif;
 }
 
- 
- /* About me section */
 
- #bio h2 {
+/* About me section */
+
+#bio h2 {
     font-size: 120%;
- }
- #bio p {
-    font-size: 100%;
- }
+}
 
- footer {
+#bio p {
+    font-size: 100%;
+}
+
+footer {
     max-height: 150px;
- }
- #social-networks i {
+}
+
+#social-networks i {
     font-size: 200%;
- }
+}
 
 /* Media query: laptops and larger (992px and up */
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid rgb(29, 28, 28);
     }
-    
- #cover-text {
-    text-align: center;
-    width: 90%;
-    margin-right: 5%;
-    float: right;
-    color:rgb(0, 0, 0, 0.4);
-    
- }
 
- #cover-text>h2 {
-     background-color: rgba(255, 255, 255, 0.7);
-     color: rgb(29, 28, 28);
-}
+    #cover-text {
+        text-align: center;
+        width: 90%;
+        margin-right: 5%;
+        float: right;
+        color: rgb(0, 0, 0, 0.4);
 
-.image-container {
-    display: flex;
-    align-items: center;
-}
-.image {
-    flex-basis: 60%;
-}
-img {
-    max-width: 100%;
-}
-.text {
-   
-    padding-left: 20px;
-}
-/* Header */
-#logo {
-    font-size: 210%;
-}
-header a {
-    font-size: 100%;
-    
-}
+    }
 
-/* Treatments page */
+    #cover-text>h2 {
+        background-color: rgba(255, 255, 255, 0.7);
+        color: rgb(29, 28, 28);
+    }
 
-details {
-    font-size: 160%;
+    .image-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .image {
+        flex-basis: 60%;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    .text {
+
+        padding-left: 20px;
+    }
+
+    /* Header */
+    #logo {
+        font-size: 210%;
+    }
+
+    header a {
+        font-size: 100%;
+
+    }
+
+    /* Treatments page */
+
+    details {
+        font-size: 160%;
+    }
+
+    #services h2 {
+        font-size: 180%;
+    }
+
+    /* Contact page */
+
+    #get-in-touch {
+        width: 100%;
+        background-position: 75%;
+    }
 }
-#services h2 {
-    font-size: 180%;
-}
-
-/* Contact page */
-
-#get-in-touch {
-    width: 100%;
-    background-position: 75%;
-}
-}
-
-
