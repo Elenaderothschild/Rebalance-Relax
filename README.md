@@ -195,7 +195,7 @@ Home Page
 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
-| Navbar | Links directing the user to other pages | Clicked each link| Directed to relevant pages| Pass |
+| Navbar | When navbar menu items clicked on the users are directed to releant pages | Clicked each link| Directed to the relevant pages| Pass |
 
 Treatments Page
 
