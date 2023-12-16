@@ -207,14 +207,14 @@ Contact Page
 
  Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
-| Contact Form | The form is not submitted unless all inputs were filled out | Tried to submit the form without required information| The message please fill in this field was displayed| Pass |
-| Contact Form | The form is submitted if all the inputs were filled in| Filled in all inputs| The form was submitted| Pass |
+| Contact Form | Message asking to fill in the field displayed when trying to submit the form without all required information | Tried to submit the form without required information | The message please fill in this field was displayed| Pass |
+| Contact Form | The form is submitted if all the fields were filled in | Filled in all inputs| The form was submitted| Pass |
 
 Footer
 
  Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
-| Social media links | Tried to click on social media icons| Social medial links opened in the new window| Pass |
+| Social media links | Social media links open in a new window | Social media linked were clicked on | Social medial links opened in a new window| Pass |
 
 ### **Lighthouse**
 
