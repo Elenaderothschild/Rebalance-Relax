@@ -115,9 +115,13 @@ This is an introduction of the service provider where he shares his path to bein
 This page has a treatment menu which has information about types of treatment and prices. I used Details element for a mobile screen layout. It allows to see information at a glance and then read more about the treatments when clicking the arrow. I used a table to organise pricing information for treatment bundles.
 I have changed the layout for larger screens to make use of the space and provide better visual user experience.
 
+![Treatments mobile screen](docs/treatments-mobile.jpg)
+
 ### *Contact*
 
 This is a contact form which allows a user to send an enquiry. The form uses 2 text inpits, an email input, textarea element and a send button.
+
+![Contact](docs/contact.jpg)
 
 ### *Features left to implement*
 
@@ -184,6 +188,33 @@ As a person interested in the cost of services, I want to see aclear pricing inf
 As a user seeking convenience, I would like to have an easy option to make and enquiry and contact the therapist.
 
 ![Get in touch](docs/contact.jpg)
+
+### Manual Testing
+
+Home Page
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| Navbar | Links directing the user to other pages | Clicked each link| Directed to relevant pages| Pass |
+
+Treatments Page
+
+ Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| Clickable arrows on mobile screens| When the arrow clicked information about each treatment displayed | Clicked each arrow| Information displayed| Pass |
+
+Contact Page
+
+ Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| Contact Form | The form is not submitted unless all inputs were filled out | Tried to submit the form without required information| The message please fill in this field was displayed| Pass |
+| Contact Form | The form is submitted if all the inputs were filled in| Filled in all inputs| The form was submitted| Pass |
+
+Footer
+
+ Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| Social media links | Tried to click on social media icons| Social medial links opened in the new window| Pass |
 
 ### **Lighthouse**
 
