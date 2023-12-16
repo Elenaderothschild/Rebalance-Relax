@@ -201,7 +201,7 @@ Treatments Page
 
  Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
-| Clickable arrows on mobile screens| When the arrow clicked information about each treatment displayed | Clicked each arrow| Information displayed| Pass |
+| Clickable arrows on mobile screens | When the arrow clicked information about each treatment displayed | Clicked each arrow| Information displayed | Pass |
 
 Contact Page
 
